@@ -102,9 +102,9 @@ It reflects several principles I consider foundational:
 
 This repository includes supporting documentation that explains the reasoning behind the architecture:
 
-- [`docs/architecture-decisions.md`](docs/architecture-decisions.md)
-- [`docs/threat-model.md`](docs/threat-model.md)
-- [`docs/security-controls.md`](docs/security-controls.md)
-- [`docs/deployment-scope.md`](docs/deployment-scope.md)
-- [`examples/sample-iam-patterns.md`](examples/sample-iam-patterns.md)
-- [`examples/sample-network-segmentation.md`](examples/sample-network-segmentation.md)
+- [`docs/architecture-decisions.md`](docs/architecture-decisions.md) — explains major design decisions including multi-account separation, layered ingress, private workloads, centralized logging, IAM Identity Center, and Multi-AZ resilience
+- [`docs/threat-model.md`](docs/threat-model.md) — documents key retail platform threats, trust boundaries, business impacts, and mitigations
+- [`docs/security-controls.md`](docs/security-controls.md) — maps preventive, detective, responsive, and governance controls across the architecture
+- [`docs/deployment-scope.md`](docs/deployment-scope.md) — clarifies what is conceptual, what is example-based, and why the project is scoped as a reference architecture
+- [`examples/sample-iam-patterns.md`](examples/sample-iam-patterns.md) — provides example IAM access patterns for cross-account and workload access
+- [`examples/sample-network-segmentation.md`](examples/sample-network-segmentation.md) — provides example subnet and traffic segmentation patterns
