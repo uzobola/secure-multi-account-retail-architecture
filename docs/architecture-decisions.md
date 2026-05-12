@@ -82,3 +82,11 @@ This architecture places:
 - RDS in a Multi-AZ configuration
 
 This improves recovery posture and supports business continuity in the face of instance or AZ-level disruption.
+
+## 9. Why separate security tooling and log archive responsibilities?
+
+Security tooling and log archive responsibilities are separated to reduce the risk that workload administrators can modify detection configuration or tamper with audit evidence.
+
+The security tooling account is responsible for findings aggregation and posture visibility. The log archive account preserves activity logs and evidence for investigation and audit purposes.
+
+This separation supports stronger incident response, better evidence integrity, and clearer ownership of security operations.
